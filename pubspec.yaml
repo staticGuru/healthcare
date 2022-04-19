@@ -1,0 +1,52 @@
+name: meddashboard
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI
+  google_fonts: ^1.1.0
+  # https://oblador.github.io/react-native-vector-icons/
+
+  material_design_icons_flutter: ^4.0.5655
+
+  draggable_scrollbar: ^0.0.4
+
+
+  # ARCHITECTURE
+  bloc: ^6.0.3
+  flutter_bloc: ^6.0.5
+  provider: ^4.3.2+2
+
+
+  # UTILS
+  url_launcher: ^5.7.1
+  http: ^0.12.2
+
+  rxdart: 0.25.0
+  battery_indicator: 0.0.6
+  shared_preferences:
+  socket_io_client: ^1.0.1
+  # oscilloscope: ^0.0.3
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: false
+
+  assets:
+    - assets/icons/
+    - assets/
+
